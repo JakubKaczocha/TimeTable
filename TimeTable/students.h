@@ -2,7 +2,9 @@
 #define STUDENTS_H
 
 
-class Students
+#include "timetable.h"
+
+class Students : public TimeTable
 {
 public:
     Students();
